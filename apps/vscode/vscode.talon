@@ -283,3 +283,6 @@ cell run: user.vscode("notebook.cell.execute")
 
 install local: user.vscode("workbench.extensions.action.installVSIX")
 preview markdown: user.vscode("markdown.showPreview")
+
+deck(pedal_middle): user.vscode('cursorless.toggleDecorations')
+confetti: user.vscode('cursorless.toggleDecorations')
