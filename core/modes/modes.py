@@ -1,6 +1,8 @@
-from talon import Module, actions, app, speech_system
+from talon import Context, Module, actions, app, speech_system
 
 mod = Module()
+ctx_sleep = Context()
+ctx_awake = Context()
 
 modes = {
     "admin": "enable extra administration commands terminal (docker, etc)",
