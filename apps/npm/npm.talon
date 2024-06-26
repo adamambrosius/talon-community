@@ -19,3 +19,7 @@ npm run typecheck:
 npm run start:
     insert("npm run start")
     key(enter)
+
+npm run lint:
+    insert("npm run lint")
+    key(enter)
