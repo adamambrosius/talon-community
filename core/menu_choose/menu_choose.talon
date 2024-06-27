@@ -1,3 +1,4 @@
 # pick item from a dropdown
-choose <number_small>: user.choose(number_small)
-choose up <number_small>: user.choose_up(number_small)
+(pic | pick | choose): key(return)
+(pic | pick | choose) <number_small>: user.choose(number_small)
+(pic | pick | choose) up <number_small>: user.choose_up(number_small)
