@@ -33,3 +33,20 @@ class ActionsSleepMode:
 class ActionsAwakeMode:
     def enable():
         actions.app.notify("Talon is already awake")
+
+
+ctx_awake.matches = r"""
+not mode: sleep
+"""
+
+
+@ctx_sleep.action_class("speech")
+class ActionsSleepMode:
+    def disable():
+        actions.app.notify("Talon is already asleep")
+
+
+@ctx_awake.action_class("speech")
+class ActionsAwakeMode:
+    def enable():
+        actions.app.notify("Talon is already awake")
