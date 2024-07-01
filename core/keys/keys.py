@@ -224,7 +224,6 @@ symbol_key_words = {
     # Currencies
     "dollar": "$",
     "pound": "£",
-    "spamma": ", "
 }
 
 # make punctuation words also included in {user.symbol_keys}
